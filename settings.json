@@ -1,0 +1,8 @@
+{
+    "settings": {
+        "ip": "localhost",
+        "port": 25565,
+        "username": "Bot",
+        "auth": "offline"
+    }
+}
