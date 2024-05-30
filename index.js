@@ -20,11 +20,7 @@ const bot = mineflayer.createBot({
 // Load the pathfinder plugin
 bot.loadPlugin(pathfinder);
 
-bot.on('chat', (username, message) => {
-    if (username === bot.username) return;
-    // bot.chat(message);
-});
-
+// Say hello when new player joining the server
 bot.on('playerJoined', () => {
     bot.chat('Hello! ');
 });
